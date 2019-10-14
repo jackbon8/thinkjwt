@@ -7,9 +7,9 @@
 使用案例：
 
 
-
 ` ` 
-      
+<?php
+
       use Firebase\JWT\JwtAuth;
 
       //加密生成token
@@ -30,5 +30,5 @@
       {
          $Info=JwtAuth::checkToken($token);
       }
-      ?>
+?>
 ` ` 
