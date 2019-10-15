@@ -10,7 +10,7 @@
 ` ` 
       <?php
 
-            use Firebase\JWT\JwtAuth;
+            use Thinkjwt\JWT\JwtAuth;
 
             //加密生成token
             public function ceateToken()
