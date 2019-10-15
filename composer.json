@@ -5,7 +5,7 @@
     "keywords": ["thinkphp-jwt"],
     "homepage": "https://github.com/jackbon8/thinkjwt.git",
     "license": "Apache-2.0",
-    "minimum-stability": "1.0-dev",
+    "minimum-stability": "dev",
     "authors": [
         {
             "name": "Bao Shuai Shi",
