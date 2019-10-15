@@ -4,6 +4,16 @@
 
 安装完成以后  只需要安装阅读JwtAuth.php 文件配置相应的参数。
 
+项目文件的composer.json的require加入以下代码
+"ssw/ssw_jwt": "dev-master"
+
+然后执行
+
+composer update
+
+等待引入即可
+
+
 使用案例：
 
 
