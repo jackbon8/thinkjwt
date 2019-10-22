@@ -56,7 +56,7 @@ class JwtAuth
         } catch (\Exception $e) { //其他錯誤
             $remsg = $e->getMessage();
         }
-        return ['code' => 0, $remsg];
+        return ['code' => 0, 'msg'=>$remsg];
     }
 
 
